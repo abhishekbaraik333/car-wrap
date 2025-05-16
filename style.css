@@ -46,6 +46,18 @@ header {
     opacity 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
+footer{
+    backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0);
+  padding: 15px 70px;
+  width: 100%;
+  transition: top 0.5s cubic-bezier(0.25, 1, 0.5, 1),
+    background-color 0.5s cubic-bezier(0.25, 1, 0.5, 1),
+    opacity 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  border-top: 1px solid rgba(255, 0, 0, 0.3);
+}
+
 /* Hero section */
 .hero-container {
   position: relative;
