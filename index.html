@@ -20,7 +20,7 @@
   </head>
   <body class="max-w-[1980px] mx-auto">
     <header class="max-w-[1980px] mx-auto">
-      <ul class="gap-10 font-semibold opacity-80 hidden lg:flex">
+      <ul class="relative z-[100] gap-10 font-semibold opacity-80 hidden lg:flex">
         <li class="hover:text-red-500 duration-300">
           <a href="#wraps"> Wraps</a>
         </li>
@@ -29,9 +29,9 @@
         </li>
       </ul>
       <div>
-        <img src="./assets/logo.png" width="250" />
+        <img src="./assets/logo-white.png" class="relative z-[100]" width="250" />
       </div>
-      <ul class="gap-10 font-semibold opacity-80 hidden lg:flex">
+      <ul class="relative z-[100] gap-10 font-semibold opacity-80 hidden lg:flex">
           <li class="hover:text-red-500 duration-300">
             <a href="#contact">Contact</a>
           </li>
@@ -39,6 +39,7 @@
           <a href="#form"> Book Today</a>
         </li>
       </ul>
+      <div class="header-overlay"></div>
     </header>
 
     <main>
@@ -762,9 +763,9 @@
             <div>
                 <h3 class="gradient-text text-2xl font-bold">Contact Us</h3>
                 <div class="flex flex-col gap-3 mt-3">
-                    <p>Phone: 513-555-1234</p>
-                    <p>Email:placeholder@gmail.com</p>
-                    <p>Address: 123 Main St, Cincinnati, OH 45202</p>
+                    <a class="hover:text-red-600 duration-300" href="tel:+513-531-1919">Phone: 513-531-1919</a>
+                    <a class="hover:text-red-600 duration-300" href="mailto:Speedysigns1@gmail.com">Email: Speedysigns1@gmail.com</a>
+                    <p class="hover:text-red-600 duration-300">Address: 2312 East Sharon Rd, Cincinnati, OH 45241</p>
                 </div>
             </div> 
             <div class="flex justify-center">
