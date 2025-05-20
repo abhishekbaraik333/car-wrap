@@ -229,7 +229,7 @@ footer{
 .stat-icon svg {
   width: 1.25rem;
   height: 1.25rem;
-  color: rgb(211, 80, 80);
+  fill: rgb(211, 80, 80);
 }
 
 .stat-text {
@@ -258,7 +258,6 @@ footer{
 .rating-text {
   font-size: 0.875rem;
   color: rgb(156, 163, 175);
-  margin-left: 0.5rem;
 }
 
 /* Buttons */
