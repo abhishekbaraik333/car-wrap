@@ -23,6 +23,7 @@ header {
   top: 0;
   z-index: 1000;
   display: flex;
+  text-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 5rem;
@@ -438,10 +439,15 @@ footer{
   }
   .main-heading {
     font-size: 2rem;
+    font-weight: 700;
     line-height: 2.5rem;
   }
   .hero-description {
     font-size: 0.875rem;
+  }
+
+  header {
+    display: block;
   }
 }
 
