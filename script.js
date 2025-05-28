@@ -29,6 +29,17 @@ const swiper = new Swiper(".mySwiper", {
   },
 });
 
+const swiper2 = new Swiper(".mySwiper2", {
+  loop: true,
+  // centeredSlides: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  slidesPerView:1,
+  spaceBetween: 20,
+});
+
 // Get overlay elements
 const overlay = document.getElementById("fullscreen-overlay");
 const fullscreenImg = document.getElementById("fullscreen-img");
